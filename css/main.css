@@ -1,0 +1,53 @@
+html {
+	font-family: 'David Libre', serif;
+	font-size: 16px;
+	line-height: 1.5;
+
+}
+
+
+.header {
+	background: #fafafa;
+	background-image: url("../img/bg/bg-header.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	height: 100vh;
+
+	color: #FFF;
+	text-align: center;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	position: relative;
+
+}
+
+.header__title {
+	font-size: 56px;
+	margin-bottom: 10px;
+	font-family: 'Merriweather', serif;
+	text-shadow: 2px 1px 0.8px black;
+
+}
+
+.header__slogan {
+	font-size: 28px;
+	line-height: 42px;
+
+}
+
+.header__arrow {
+	font-size: 48px;
+	width: 60px;
+	height: 50px;
+	margin-left: -30px;
+	position: absolute;
+	bottom: 50px;
+	left: 50%;
+
+}

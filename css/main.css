@@ -5,6 +5,49 @@ html {
 
 }
 
+img {
+	display: inline-block;
+}
+
+/* ..........................................
+
+	GRID
+
+........................................... */
+
+.container {
+	width: 1140px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.row {
+	width: 1140px;
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-around;
+
+}
+
+.col-4 {
+	width: 360px;
+	margin-right: 25px;
+	float: left;
+}
+
+
+.col-4:last-child {
+	margin-right: 0px;
+}
+
+
+
+
+/* ..........................................
+
+	HEADER
+
+........................................... */
 
 .header {
 	background: #fafafa;
@@ -50,4 +93,42 @@ html {
 	bottom: 50px;
 	left: 50%;
 
+}
+
+/* ..........................................
+
+	PORTFOLIO
+
+........................................... */
+
+.portfolio {
+	padding-top: 40px;
+	padding-bottom: 60px;
+}
+
+.portfolio-item {
+	margin-bottom: 20px;
+}
+
+.title {
+	font-size: 46px;
+	margin-bottom: 60px;
+	font-family: 'Merriweather', serif;
+	text-align: center;
+}
+
+.portfolio-item__img {
+	margin-bottom: 17px;
+}
+
+.portfolio-item__title {
+	font-size: 24px;
+	line-height: normal;
+	margin-bottom: 5px;
+	text-align: center;
+
+}
+
+.portfolio-item__text {
+	text-align: center;
 }
